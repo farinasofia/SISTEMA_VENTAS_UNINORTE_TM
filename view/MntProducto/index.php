@@ -28,7 +28,7 @@
     <meta name="description" content="Premium Quality and Responsive UI for Dashboard.">
     <meta name="author" content="ThemePixels">
 
-    <title>Bracket Responsive Bootstrap 4 Admin Template</title>
+    <title>SISTEMA VENTAS</title>
 
     <!-- vendor css -->
     <link href="../../public/lib/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -44,8 +44,9 @@
 
     <!-- ########## START: LEFT PANEL ########## -->
     <div class="br-logo"><a href=""><span>[</span>VENTAS<span>]</span></a></div>
+
     <div class="br-sideleft overflow-y-auto">
-      <label class="sidebar-label pd-x-15 mg-t-20">Navegación</label>
+      <label class="sidebar-label pd-x-15 mg-t-20">Navegaciòn</label>
       <div class="br-sideleft-menu">
 
         <a href="../../index.php" class="br-menu-link">
@@ -54,8 +55,7 @@
             <span class="menu-item-label">Dashboard</span>
           </div><!-- menu-item -->
         </a><!-- br-menu-link -->
-
-   
+        
         <a href="#" class="br-menu-link">
           <div class="br-menu-item">
             <i class="menu-item-icon icon ion-ios-filing-outline tx-24"></i>
@@ -65,9 +65,9 @@
         </a><!-- br-menu-link -->
 
         <ul class="br-menu-sub nav flex-column">
-          <li class="nav-item">
-            <a href="#" class="nav-link">Productos</a>
-        </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Productos</a>
+            </li>
         </ul>
 
       </div><!-- br-sideleft-menu -->
@@ -683,19 +683,51 @@
     <div class="br-mainpanel">
       <div class="br-pageheader pd-y-15 pd-l-20">
         <nav class="breadcrumb pd-0 mg-0 tx-12">
-          <a class="breadcrumb-item" href="index.html">Sistema Ventas</a>
+          <a class="breadcrumb-item" href="index.html">Mantenimiento</a>
           <span class="breadcrumb-item active">Productos</span>
         </nav>
       </div><!-- br-pageheader -->
       <div class="pd-x-20 pd-sm-x-30 pd-t-20 pd-sm-t-30">
-        <h4 class="tx-gray-800 mg-b-5">Página de Productos</h4>
-        <p class="mg-b-0">Aqui voy a configurar mi página de productos </p>
+        <h4 class="tx-gray-800 mg-b-5">Pagina de Productos</h4>
+        <p class="mg-b-0">Aquì voy a configurar mi pagina de productos</p>
       </div>
 
       <div class="br-pagebody">
 
-        <!-- start you own content here -->
+        <div class="br-section-wrapper">
+          <h6 class="tx-gray-800 tx-uppercase tx-bold tx-14 mg-b-10">Mantenimiento de Productos</h6>
+          <!-- <p class="mg-b-25 mg-lg-b-50">Searching, ordering and paging goodness will be immediately added to the table, as shown in this example.</p> -->
 
+          <div class="table-wrapper">
+            
+            <table id="datatable1" class="table display responsive nowrap">
+              
+              <thead>
+                <tr>
+                  <th class="wd-15p">Nombre Producto</th>
+                  <th class="wd-15p">Accion</th>
+                  <th class="wd-20p">Accion</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>Gaseosa Coca Cola 2L</td>
+                  <td><button class="btn btn-primary">Editar</button></td>
+                  <td><button class="btn btn-danger">Eliminar</button></td>
+                </tr>
+
+                <tr>
+                  <td>Agua en Botella 1L</td>
+                  <td><button type="button" class="btn btn-outline-primary btn-icon"> <div class="fa fa-edit"></div> </button></td>
+                 <td><button type="button" class="btn btn-outline-danger btn-icon"> <div class="fa fa-trash"></div> </button></td>
+                </tr>
+              </tbody>
+
+            </table>
+
+          </div><!-- table-wrapper -->
+        </div>
       </div><!-- br-pagebody -->
 
     </div><!-- br-mainpanel -->
