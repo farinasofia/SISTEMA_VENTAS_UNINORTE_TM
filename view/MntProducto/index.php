@@ -743,5 +743,14 @@
     <script src="../../public/lib/peity/jquery.peity.js"></script>
 
     <script src="../../public/js/bracket.js"></script>
+
+    <script>
+      $('producto_data').DataTable{
+        responsive: true;
+        language:{
+        
+        }
+
+      }
   </body>
 </html>

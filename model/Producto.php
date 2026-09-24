@@ -2,7 +2,7 @@
     //La clase Producto hereda las funciones de la clase Conectar
     class Producto extends Conectar
     {
-        //obtine todos los productos de la BD
+        //obtiene todos los productos de la BD
         public function get_producto(){
 
             //Establece la conexion con la BD
